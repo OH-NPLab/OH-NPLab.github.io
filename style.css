@@ -34,3 +34,8 @@
 .profile-links strong{font-size:1rem}.profile-links span{font-size:.86rem;line-height:1.35;opacity:.72}
 @media(max-width:900px){.profile-links{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.profile-links{grid-template-columns:1fr}}
+
+/* Production patch 1 */
+@media(min-width:901px){.brand img{width:68px;height:68px}}
+.profile-links span{white-space:nowrap}
+@media(max-width:1200px) and (min-width:901px){.profile-links{grid-template-columns:repeat(3,minmax(0,1fr))}}
