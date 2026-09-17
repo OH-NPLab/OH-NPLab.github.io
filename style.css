@@ -39,3 +39,13 @@
 @media(min-width:901px){.brand img{width:68px;height:68px}}
 .profile-links span{white-space:nowrap}
 @media(max-width:1200px) and (min-width:901px){.profile-links{grid-template-columns:repeat(3,minmax(0,1fr))}}
+/* Header logo enlargement */
+@media(min-width:901px){
+  .brand img{
+    width:100px;
+    height:76px;
+  }
+  .brand{
+    gap:14px;
+  }
+}
